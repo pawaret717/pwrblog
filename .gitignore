@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+pwrblog
+
 # testing
 /coverage
 
