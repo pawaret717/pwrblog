@@ -28,7 +28,7 @@ const Home = ({ posts }: Props) => {
               PWR BLOG
             </span>
             <br />
-            is a place to write and read
+            
           </h1>
           <h2>
             It's very easy to post storie and articles. in order to read and
