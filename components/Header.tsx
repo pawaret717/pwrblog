@@ -7,7 +7,7 @@ const Header: FC = () => {
       <div className="flex items-center space-x-5">
         <Link href="/">
           <img
-            src="https://scontent.fcnx4-1.fna.fbcdn.net/v/t1.15752-9/301383282_1108405673126461_7975284357049415556_n.png?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGcKcLv-fDGmd96Iljb6zloKStXxeAl69MpK1fF4CXr09sFH0l6T_wHOaWJ8odjcfQYhiqlk4CCokkm93u7b0WY&_nc_ohc=OA48b3HN6-8AX-mizdj&_nc_ht=scontent.fcnx4-1.fna&oh=03_AdTXGGvk0eTe6TnJAO_y9COHvth2FKRLs4Vs_mdMKea7wQ&oe=637AA24D"
+            src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/310755559_1503082390167599_9036241321521054681_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFMayuK-e3SSZHI4Iw-FKLJ119IThi6szDXX0hOGLqzMLKwKUwhWhkPu1Mnxgh4irLdIGtbA1UKNKBAgWLtDNcp&_nc_ohc=Fawfz_H6E7sAX-q4JBQ&tn=Qf2UdSppj9MpfYRb&_nc_ht=scontent.fbkk12-1.fna&oh=03_AdRiffxFQ2-nc4MzOuBMs8rwc5Cf0eXzo6N_FhKLlLJkwQ&oe=638AA5C2"
             alt=""
             className="w-40 cursor-pointer object-contain"
           />
