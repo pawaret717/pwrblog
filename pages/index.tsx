@@ -31,8 +31,7 @@ const Home = ({ posts }: Props) => {
             
           </h1>
           <h2>
-            It's very easy to post storie and articles. in order to read and
-            keep as a memory.
+            My articles are saved as memories and those who are interested will read them.
           </h2>
         </div>
         <img
