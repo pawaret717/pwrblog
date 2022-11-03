@@ -31,7 +31,7 @@ const Home = ({ posts }: Props) => {
             is a place to write and read
           </h1>
           <h2>
-            It's very easy to post stories and articles. in order to read and
+            It's very easy to post storie and articles. in order to read and
             keep as a memory.
           </h2>
         </div>
