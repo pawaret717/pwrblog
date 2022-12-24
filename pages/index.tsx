@@ -36,7 +36,7 @@ const Home = ({ posts }: Props) => {
         </div>
         <img
           className="hidden h-32 md:inline-flex lg:inline-flex"
-          src="https://drive.google.com/drive/u/0/folders/1ASpNF7TF_rkVdDLflcG6xUVWnmoy1yLV"
+          src="https://drive.google.com/file/d/1imapD4olO9b5GTlr4-i2lMw59TfvBN5t/view?usp=sharing"
           alt=""
         />
       </div>
