@@ -36,7 +36,7 @@ const Home = ({ posts }: Props) => {
         </div>
         <img
           className="hidden h-32 md:inline-flex lg:inline-flex"
-          src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/310755559_1503082390167599_9036241321521054681_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFMayuK-e3SSZHI4Iw-FKLJ119IThi6szDXX0hOGLqzMLKwKUwhWhkPu1Mnxgh4irLdIGtbA1UKNKBAgWLtDNcp&_nc_ohc=Fawfz_H6E7sAX-q4JBQ&tn=Qf2UdSppj9MpfYRb&_nc_ht=scontent.fbkk12-1.fna&oh=03_AdRiffxFQ2-nc4MzOuBMs8rwc5Cf0eXzo6N_FhKLlLJkwQ&oe=638AA5C2"
+          src="https://drive.google.com/drive/u/0/folders/1ASpNF7TF_rkVdDLflcG6xUVWnmoy1yLV"
           alt=""
         />
       </div>
