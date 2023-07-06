@@ -23,7 +23,7 @@ const Header: FC = () => {
               Instagram
             </a>
           </h3>
-          <h3 className="rounded-full bg-black-500 px-4 py-1 text-white cursor-pointer">
+          <h3 className="rounded-full bg-purple-500 px-4 py-1 text-white cursor-pointer">
             <a href="https://github.com/pawaret717?tab=repositories" target="_blank">
               GitHub
             </a>
