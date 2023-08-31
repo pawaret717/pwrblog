@@ -70,6 +70,8 @@ const Post = ({ post }: Props) => {
           </p>
         </div>
 
+        <hr className="my-5 mx-auto max-w-lg border border-pink-500" />
+
         <div className="mt-10">
           <PortableText
             dataset={process.env.NEXT_PUBLIC_SANITY_DATASET}
