@@ -7,7 +7,7 @@ const Header: FC = () => {
       <div className="flex items-center space-x-5">
         <Link href="/">
           <img
-            src="https://drive.google.com/drive/u/0/folders/1K0ZQ4grPg2dBWvfagfzyRsKLFhIL88zR"
+            src="https://ibb.co/09SRzyJ"
             alt=""
             className="w-40 cursor-pointer object-contain"
           />
