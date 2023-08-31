@@ -7,7 +7,7 @@ const Header: FC = () => {
       <div className="flex items-center space-x-5">
         <Link href="/">
           <img
-            src="https://scontent.fbkk8-2.fna.fbcdn.net/v/t1.15752-9/310755559_1503082390167599_9036241321521054681_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFMayuK-e3SSZHI4Iw-FKLJ119IThi6szDXX0hOGLqzMLKwKUwhWhkPu1Mnxgh4irLdIGtbA1UKNKBAgWLtDNcp&_nc_ohc=DVS1_j10gmYAX_PkAtP&_nc_ht=scontent.fbkk8-2.fna&oh=03_AdQjyQZJ2vwnWno8KE0aAdsifsguMbDIG2jjB_0mVKRn4A&oe=64CDDD82"
+            src="https://drive.google.com/file/d/1IYerHS8Zkhg25DjUg5OofrldY8DeEnBf/view?usp=sharing"
             alt=""
             className="w-40 cursor-pointer object-contain"
           />
