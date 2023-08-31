@@ -23,7 +23,7 @@ const Home = ({ posts }: Props) => {
 
       <div className="flex items-center justify-between border-y border-black bg-purple-400 py-10 lg:py-0">
         <div className="space-y-5 px-10">
-          <h1 className="max-w-xl font-serif text-4xl">
+          <h1 className="max-w-xl font-serif text-3xl">
             <span className="underline decoration-black decoration-4">
               PWR BLOG
             </span>
