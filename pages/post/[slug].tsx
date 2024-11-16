@@ -100,7 +100,7 @@ const Post = ({ post }: Props) => {
 
       <hr className="my-5 mx-auto max-w-lg border border-pink-500" />
 
-      {submitted ? (
+      /*{submitted ? (
         <div className="my-10 mx-auto flex max-w-2xl flex-col bg-purple-500 p-10 text-white">
           <h3 className="text-3xl font-bold">ขอบคุณสำหรับ Comment ของคุณ!</h3>
           <p>เมื่อ Comment ของคุณได้รับการอนุมัติแล้วจะปรากฏด้านล่างนี้</p>
@@ -183,7 +183,7 @@ const Post = ({ post }: Props) => {
             </p>
           </div>
         ))}
-      </div>
+      </div>*/
 
     </main>
   );
