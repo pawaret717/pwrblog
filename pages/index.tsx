@@ -31,8 +31,7 @@ const Home = ({ posts }: Props) => {
             
           </h1>
           <h2>
-            <!-- My articles are saved as memories and those who are interested will read them. -->
-              ส่งเสริมศักยภาพ ดูแลคุณภาพชีวิต พัฒนาความสัมพันธ์นิสิตมุสลิม
+            ส่งเสริมศักยภาพ ดูแลคุณภาพชีวิต พัฒนาความสัมพันธ์นิสิตมุสลิม
           </h2>
         </div>
         <img
