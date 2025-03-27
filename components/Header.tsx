@@ -13,11 +13,6 @@ const Header: FC = () => {
           />
         </Link>
         <div className="hidden items-center space-x-3 md:inline-flex">
-          <h3 className="rounded-full bg-blue-600 px-4 py-1 text-white cursor-pointer">
-            <a href="https://discord.gg/asxFmePR9y" target="_blank">
-              Discord
-            </a>
-          </h3>
           <h3 className="rounded-full bg-pink-500 px-4 py-1 text-white cursor-pointer">
             <a href="https://www.instagram.com/pawaret_k/" target="_blank">
               Instagram
