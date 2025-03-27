@@ -115,8 +115,8 @@ const Post = ({ post }: Props) => {
 
       {submitted ? (
         <div className="my-10 mx-auto flex max-w-2xl flex-col bg-green-500 p-10 text-white">
-          <h3 className="text-3xl font-bold">ขอบคุณสำหรับ Comment ของคุณ!</h3>
-          <p>เมื่อ Comment ของคุณได้รับการอนุมัติแล้วจะปรากฏด้านล่างนี้</p>
+          <h3 className="text-3xl font-bold">ขอบคุณสำหรับความคิดเห็นของคุณ!</h3>
+          <p>เมื่อความคิดเห็นของคุณได้รับการอนุมัติแล้วจะปรากฏด้านล่างนี้</p>
         </div>
       ) : (
         <form
@@ -185,7 +185,7 @@ const Post = ({ post }: Props) => {
       )}
 
       <div className="my-10 mx-auto flex max-w-2xl flex-col space-y-2 p-10 shadow shadow-green-500">
-        <h3 className="text-4xl">Comments</h3>
+        <h3 className="text-4xl">ความคิดเห็น</h3>
         <hr className="pb-2" />
 
         {post.comments.map((comment: Comment) => (
