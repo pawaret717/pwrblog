@@ -179,7 +179,7 @@ const Post = ({ post }: Props) => {
 
           <input
             type="submit"
-            className="focus:shadow-outline cursor-pointer rounded-sm bg-purple-500 py-2 px-4 font-bold text-white shadow hover:bg-green-400 focus:outline-none"
+            className="focus:shadow-outline cursor-pointer rounded-sm bg-green-500 py-2 px-4 font-bold text-white shadow hover:bg-green-400 focus:outline-none"
           />
         </form>
       )}
