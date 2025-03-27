@@ -22,7 +22,7 @@ const Home = ({ posts }: Props) => {
       <Header />
 
       <div className="flex items-center justify-between border-y border-black bg-green-700 py-10 lg:py-0">
-        <div className="space-y-5 px-10">
+        <div className="space-y-4 px-10">
           <h1 className="max-w-xl font-serif text-2xl text-white">
             <span className="underline decoration-white decoration-3">
               MUSLIM CLUB UP
