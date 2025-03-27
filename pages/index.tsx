@@ -30,7 +30,7 @@ const Home = ({ posts }: Props) => {
             <br />
             
           </h1>
-          <h4 className="text-white">
+          <h4 className="text-white text-sm">
             ส่งเสริมศักยภาพ ดูแลคุณภาพชีวิต พัฒนาความสัมพันธ์นิสิตมุสลิม
           </h4>
         </div>
