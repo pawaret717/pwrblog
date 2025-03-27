@@ -54,7 +54,9 @@ const Home = ({ posts }: Props) => {
                 <div>
                   <p className="text-lg font-bold">{post.title}</p>
                   <p className="text-xs">
-                    {post.description} โดย{" "}
+                    {post.description.length > 15
+                ? `${post.description.slice(0, 15)}... <span className="text-blue-500">อ่านเพิ่มเติม</span>`
+                : post.description} โดย{" "}
                     <span className="text-green-700">{post.author.name}</span>
                   </p>
                 </div>
