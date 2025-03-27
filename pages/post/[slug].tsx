@@ -77,8 +77,9 @@ const Post = ({ post }: Props) => {
     hour: "2-digit",
     minute: "2-digit",
     hour12: false, // ใช้เวลาแบบ 24 ชั่วโมง
-  }).format(new Date(post._createdAt))}
-            {" "}น.
+  }).format(new Date(post._createdAt))
+    .replace('พุทธศักราช', 'พ.ศ.')}{" "}
+  น.
 </p>
         </div>
 
