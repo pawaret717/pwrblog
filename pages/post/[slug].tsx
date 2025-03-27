@@ -114,7 +114,7 @@ const Post = ({ post }: Props) => {
       <hr className="my-5 mx-auto max-w-lg border border-green-700" />
 
       {submitted ? (
-        <div className="my-10 mx-auto flex max-w-2xl flex-col bg-purple-500 p-10 text-white">
+        <div className="my-10 mx-auto flex max-w-2xl flex-col bg-green-500 p-10 text-white">
           <h3 className="text-3xl font-bold">ขอบคุณสำหรับ Comment ของคุณ!</h3>
           <p>เมื่อ Comment ของคุณได้รับการอนุมัติแล้วจะปรากฏด้านล่างนี้</p>
         </div>
@@ -123,7 +123,7 @@ const Post = ({ post }: Props) => {
           onSubmit={handleSubmit(onSubmit)}
           className="mx-auto mb-10 flex max-w-2xl flex-col p-5"
         >
-          <h3 className="text-sm text-purple-500">
+          <h3 className="text-sm text-green-500">
             คิดเห็นอย่างไรเกี่ยวกับ Blog นี้?
           </h3>
           <h4 className="text-3xl font-bold">แสดงความคิดเห็นด้านล่างนี้เลย!</h4>
@@ -138,30 +138,30 @@ const Post = ({ post }: Props) => {
           />
 
           <label className="mb-5 block">
-            <span className="text-purple-700">ชื่อ</span>
+            <span className="text-green-700">ชื่อ</span>
             <input
               {...register("name", { required: true })}
               type="text"
               placeholder="กรอกชื่อ"
-              className="form-input mt-1 block w-full rounded border py-2 px-3 shadow outline-none ring-purple-500 focus:ring"
+              className="form-input mt-1 block w-full rounded border py-2 px-3 shadow outline-none ring-green-500 focus:ring"
             />
           </label>
           <label className="mb-5 block">
-            <span className="text-purple-700">อีเมล</span>
+            <span className="text-green-700">อีเมล</span>
             <input
               {...register("email", { required: true })}
               type="email"
               placeholder="กรอกอีเมล example@gmail.com"
-              className="form-input mt-1 block w-full rounded border py-2 px-3 shadow outline-none ring-purple-500 focus:ring"
+              className="form-input mt-1 block w-full rounded border py-2 px-3 shadow outline-none ring-green-500 focus:ring"
             />
           </label>
           <label className="mb-5 block">
-            <span className="text-purple-700">ความคิดเห็น</span>
+            <span className="text-green-700">ความคิดเห็น</span>
             <textarea
               {...register("comment", { required: true })}
               rows={8}
               placeholder="แสดงความคิดเห็นตรงนี้เลย"
-              className="form-input mt-1 block w-full rounded border py-2 px-3 shadow outline-none ring-purple-500 focus:ring"
+              className="form-input mt-1 block w-full rounded border py-2 px-3 shadow outline-none ring-green-500 focus:ring"
             />
           </label>
 
@@ -179,19 +179,19 @@ const Post = ({ post }: Props) => {
 
           <input
             type="submit"
-            className="focus:shadow-outline cursor-pointer rounded-sm bg-purple-500 py-2 px-4 font-bold text-white shadow hover:bg-purple-400 focus:outline-none"
+            className="focus:shadow-outline cursor-pointer rounded-sm bg-purple-500 py-2 px-4 font-bold text-white shadow hover:bg-green-400 focus:outline-none"
           />
         </form>
       )}
 
-      <div className="my-10 mx-auto flex max-w-2xl flex-col space-y-2 p-10 shadow shadow-pink-500">
+      <div className="my-10 mx-auto flex max-w-2xl flex-col space-y-2 p-10 shadow shadow-green-500">
         <h3 className="text-4xl">Comments</h3>
         <hr className="pb-2" />
 
         {post.comments.map((comment: Comment) => (
           <div key={comment._id}>
             <p>
-              <span className="text-purple-500">{comment.name}: </span>
+              <span className="text-green-500">{comment.name}: </span>
               {comment.comment}
             </p>
           </div>
