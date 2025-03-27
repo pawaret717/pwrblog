@@ -24,7 +24,7 @@ const Home = ({ posts }: Props) => {
       <div className="flex items-center justify-between border-y border-black bg-green-700 py-10 lg:py-0">
         <div className="space-y-4 px-10">
           <h1 className="max-w-xl font-serif text-1xl text-white">
-            <span className="underline decoration-white decoration-3">
+            <span className="underline decoration-yellow decoration-3 underline-offset-4">
               MUSLIM CLUB UNIVERSITY OF PHAYAO
             </span>
             <br />
