@@ -25,7 +25,7 @@ const Home = ({ posts }: Props) => {
         <div className="space-y-5 px-10">
           <h1 className="max-w-xl font-serif text-3xl">
             <span className="underline decoration-black decoration-4">
-              MUSLIM CLUB UNIVERSITY OF PHAYAO
+              MUSLIM CLUB UP
             </span>
             <br />
             
