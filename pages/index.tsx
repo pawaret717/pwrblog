@@ -25,13 +25,14 @@ const Home = ({ posts }: Props) => {
         <div className="space-y-5 px-10">
           <h1 className="max-w-xl font-serif text-3xl">
             <span className="underline decoration-black decoration-4">
-              PWR BLOG
+              MUSLIM CLUB UNIVERSITY OF PHAYAO
             </span>
             <br />
             
           </h1>
           <h2>
-            My articles are saved as memories and those who are interested will read them.
+            <!-- My articles are saved as memories and those who are interested will read them. -->
+              ส่งเสริมศักยภาพ ดูแลคุณภาพชีวิต พัฒนาความสัมพันธ์นิสิตมุสลิม
           </h2>
         </div>
         <img
