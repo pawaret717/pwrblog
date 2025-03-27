@@ -159,7 +159,7 @@ const Post = ({ post }: Props) => {
             <span className="text-green-700">ความคิดเห็น</span>
             <textarea
               {...register("comment", { required: true })}
-              rows={8}
+              rows={4}
               placeholder="แสดงความคิดเห็นตรงนี้เลย"
               className="form-input mt-1 block w-full rounded border py-2 px-3 shadow outline-none ring-green-500 focus:ring"
             />
