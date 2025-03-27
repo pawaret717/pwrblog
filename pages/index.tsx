@@ -55,7 +55,7 @@ const Home = ({ posts }: Props) => {
                   <p className="text-lg font-bold">{post.title}</p>
                   <p className="text-xs">
                     {post.description} โดย{" "}
-                    <span className="text-pink-700">{post.author.name}</span>
+                    <span className="text-green-700">{post.author.name}</span>
                   </p>
                 </div>
                 <img
