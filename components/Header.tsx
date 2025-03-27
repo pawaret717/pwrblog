@@ -18,7 +18,7 @@ const Header: FC = () => {
               Instagram
             </a>
           </h3>
-          <h3 className="rounded-full bg-purple-500 px-4 py-1 text-white cursor-pointer">
+          <h3 className="rounded-full bg-black px-4 py-1 text-white cursor-pointer">
             <a href="https://www.tiktok.com/@muslimclub.up" target="_blank">
               Tiktok
             </a>
