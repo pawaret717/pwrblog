@@ -15,7 +15,7 @@ const Home = ({ posts }: Props) => {
   return (
     <div className="mx-auto max-w-7xl">
       <Head>
-        <title>PWR BLOG</title>
+        <title>MUSLLIM UP BLOG</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
