@@ -81,31 +81,20 @@ export const getServerSideProps = async () => {
       title,
       slug,
       author->{
-        name,
-        image
-      },
-      mainImage,
-      description,
-      _createdAt
+      name,
+      image
+    },
+    mainImage,
+    description
     }`;
 
     const posts = await sanityClient.fetch(query);
 
-    // เรียงโพสต์จากใหม่ไปเก่า
-    const sortedPosts = posts.sort((a: Post, b: Post) => {
-      const dateA = new Date(a._createdAt);
-      const dateB = new Date(b._createdAt);
-      return dateB.getTime() - dateA.getTime(); // เรียงจากล่าสุดไปเก่า
-    });
-
     return {
       props: {
-        posts: sortedPosts,
+        posts,
       },
     };
-  } catch (error) {
-    console.error(error);
-    return { props: { posts: [] } }; // กรณีเกิดข้อผิดพลาด
-  }
+  } catch (error) {}
 };
 
