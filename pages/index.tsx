@@ -23,16 +23,16 @@ const Home = ({ posts }: Props) => {
 
       <div className="flex items-center justify-between border-y border-black bg-green-700 py-10 lg:py-0">
         <div className="space-y-4 px-10">
-          <h1 className="max-w-xl font-serif text-2xl text-white">
+          <h1 className="max-w-xl font-serif text-1xl text-white">
             <span className="underline decoration-white decoration-3">
               MUSLIM CLUB UNIVERSITY OF PHAYAO
             </span>
             <br />
             
           </h1>
-          <h2 className="text-white">
+          <h3 className="text-white">
             ส่งเสริมศักยภาพ ดูแลคุณภาพชีวิต พัฒนาความสัมพันธ์นิสิตมุสลิม
-          </h2>
+          </h3>
         </div>
         <img
           className="hidden h-32 md:inline-flex lg:inline-flex"
