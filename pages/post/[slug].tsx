@@ -45,11 +45,13 @@ const Post = ({ post }: Props) => {
   return (
     <main>
       <Header />
+      {/*
       <img
         className="h-40 w-full object-cover"
         src={urlFor(post.mainImage).url()!}
         alt=""
       />
+      */}
 
       <article className="mx-auto max-w-3xl p-5 ">
         <h1 className="mt-10 mb-3 text-3xl">{post.title}</h1>
