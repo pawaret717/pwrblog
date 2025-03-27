@@ -13,7 +13,7 @@ const Home = ({ posts }: Props) => {
   console.log(posts);
 
   return (
-    <div className="mx-auto">
+    <div className="mx-auto max-w-7xl">
       <Head>
         <title>MUSLIM UP BLOG</title>
         <link rel="icon" href="/favicon.ico" />
