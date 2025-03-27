@@ -72,7 +72,7 @@ const Post = ({ post }: Props) => {
           </p>
         </div>
 
-        <hr className="my-5 mx-auto max-w-lg border border-pink-500" />
+        <hr className="my-5 mx-auto max-w-lg border border-green-700" />
 
         <div className="mt-10">
           <PortableText
@@ -100,7 +100,7 @@ const Post = ({ post }: Props) => {
         </div>
       </article>
 
-      <hr className="my-5 mx-auto max-w-lg border border-pink-500" />
+      <hr className="my-5 mx-auto max-w-lg border border-green-700" />
 
       {/*
       {submitted ? (
