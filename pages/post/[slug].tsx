@@ -76,8 +76,8 @@ const Post = ({ post }: Props) => {
     era: "long",
     hour: "2-digit",
     minute: "2-digit",
-    hour12: true,
-  }).format(new Date(post._createdAt))}{" "}
+    hour12: false, // ใช้เวลาแบบ 24 ชั่วโมง
+  }).format(new Date(post._createdAt))}
   น.
 </p>
         </div>
