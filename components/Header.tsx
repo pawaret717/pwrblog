@@ -26,10 +26,10 @@ const Header: FC = () => {
         </div>
       </div>
 
-      <div className="flex items-center space-x-5 text-purple-600">
-        <h3 className="rounded-full border border-purple-600 px-4 py-1">
+      <div className="flex items-center space-x-5 text-blue-500">
+        <h3 className="rounded-full border border-blue-500 px-4 py-1">
           <a
-            href="https://web.facebook.com/profile.php?id=100009388998753"
+            href="https://www.facebook.com/muslimclub.UP"
             target="_blank"
           >
             Facebook
