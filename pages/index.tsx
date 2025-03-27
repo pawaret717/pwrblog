@@ -42,31 +42,46 @@ const Home = ({ posts }: Props) => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 p-2 md:p-6">
-        {posts.map((post: Post) => (
-          <Link key={post._id} href={`/post/${post.slug.current}`}>
-            <div className="rounded-lg group cursor-pointer overflow-hidden border">
-              <img
-                className="h-60 w-full object-cover transition-transform duration-200"
-                src={urlFor(post.mainImage).url()!}
-                alt=""
-              />
-              <div className="flex justify-between bg-white p-5">
-                <div>
-                  <p className="text-lg font-bold">{post.title}</p>
-                  <p className="text-xs">
-                    {post.description.length > 50 ? `${post.description.slice(0, 50)} ...อ่านเพิ่มเติม...` : post.description}
-                  </p>
-                </div>
-                <img
-                  className="w-12 h-12 rounded-full"
-                  src={urlFor(post.author.image).url()!}
-                  alt=""
-                />
-              </div>
+  {posts.map((post: Post) => {
+    // คำนวณว่าโพสต์นั้นเกิดขึ้นในช่วง 7 วันที่ผ่านมาไหม
+    const postDate = new Date(post._createdAt);
+    const currentDate = new Date();
+    const timeDifference = currentDate.getTime() - postDate.getTime();
+    const isNew = timeDifference <= 7 * 24 * 60 * 60 * 1000; // เช็คว่าห่างกันไม่เกิน 7 วัน
+
+    return (
+      <Link key={post._id} href={`/post/${post.slug.current}`}>
+        <div className="relative rounded-lg group cursor-pointer overflow-hidden border">
+          {isNew && (
+            <div className="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 text-xs font-bold rounded-full">
+              ใหม่
             </div>
-          </Link>
-        ))}
-      </div>
+          )}
+          <img
+            className="h-60 w-full object-cover transition-transform duration-200"
+            src={urlFor(post.mainImage).url()!}
+            alt=""
+          />
+          <div className="flex justify-between bg-white p-5">
+            <div>
+              <p className="text-lg font-bold">{post.title}</p>
+              <p className="text-xs">
+                {post.description.length > 50
+                  ? `${post.description.slice(0, 50)} ...อ่านเพิ่มเติม...`
+                  : post.description}
+              </p>
+            </div>
+            <img
+              className="w-12 h-12 rounded-full"
+              src={urlFor(post.author.image).url()!}
+              alt=""
+            />
+          </div>
+        </div>
+      </Link>
+    );
+  })}
+</div>
     </div>
   );
 };
