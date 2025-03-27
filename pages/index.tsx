@@ -46,7 +46,7 @@ const Home = ({ posts }: Props) => {
           <Link key={post._id} href={`/post/${post.slug.current}`}>
             <div className="rounded-lg group cursor-pointer overflow-hidden border">
               <img
-                className="h-60 w-full object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out"
+                className="h-60 w-full object-cover transition-transform duration-200 ease-in-out"
                 src={urlFor(post.mainImage).url()!}
                 alt=""
               />
