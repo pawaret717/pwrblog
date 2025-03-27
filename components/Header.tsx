@@ -9,7 +9,7 @@ const Header: FC = () => {
           <img
             src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t39.30808-6/440167179_844073877752810_4355912340023388672_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=oEBhCaI8V3kQ7kNvgHQOBlO&_nc_zt=23&_nc_ht=scontent.fbkk12-1.fna&_nc_gid=jBwDEarOxoYiJUnBhEBBZw&oh=00_AYGHBewYYPThzQWxlb18wfrtgwlerm51A1DwrPc4PqpfQw&oe=67EB8CE1"
             alt=""
-            className="w-40 cursor-pointer object-contain"
+            className="w-20 cursor-pointer object-contain"
           />
         </Link>
         <div className="hidden items-center space-x-3 md:inline-flex">
