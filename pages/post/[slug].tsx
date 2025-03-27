@@ -67,7 +67,7 @@ const Post = ({ post }: Props) => {
           />
 
           <p className="text-sm font-extralight">
-  โพสต์โดย <span className="text-green-700">{post.author.name}</span>{" "}{br /}
+  โพสต์โดย <span className="text-green-700">{post.author.name}</span>{" "}<br />
   เผยแพร่เมื่อ{" "}
   {new Intl.DateTimeFormat("th-TH", {
     day: "numeric",
