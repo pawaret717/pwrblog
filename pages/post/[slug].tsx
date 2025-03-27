@@ -78,7 +78,7 @@ const Post = ({ post }: Props) => {
     minute: "2-digit",
     hour12: false, // ใช้เวลาแบบ 24 ชั่วโมง
   }).format(new Date(post._createdAt))}
-  น.
+            {" "}น.
 </p>
         </div>
 
