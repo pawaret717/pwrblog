@@ -15,13 +15,13 @@ const Home = ({ posts }: Props) => {
   return (
     <div className="mx-auto max-w-7xl">
       <Head>
-        <title>MUSLLIM UP BLOG</title>
+        <title>MUSLIM UP BLOG</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Header />
 
-      <div className="flex items-center justify-between border-y border-black bg-green-100 py-10 lg:py-0">
+      <div className="flex items-center justify-between border-y border-black bg-green-800 py-10 lg:py-0">
         <div className="space-y-5 px-10">
           <h1 className="max-w-xl font-serif text-3xl text-white">
             <span className="underline decoration-white decoration-4">
