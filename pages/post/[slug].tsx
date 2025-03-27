@@ -67,21 +67,9 @@ const Post = ({ post }: Props) => {
           />
 
           <p className="text-sm font-extralight">
-  โพสต์โดย <span className="text-green-700">{post.author.name}</span>{" "}
-  <br />
-  เผยแพร่เมื่อ{" "}
-  {new Intl.DateTimeFormat("th-TH", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-    era: "long",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: false, // ใช้เวลาแบบ 24 ชั่วโมง
-  })
-    .format(new Date(post._createdAt)){" "}
-  น.
-</p>
+            โพสต์โดย <span className="text-purple-600">{post.author.name}</span>{" "}
+            เผยแพร่เมื่อ {new Date(post._createdAt).toLocaleString()}
+          </p>
         </div>
 
         <hr className="my-5 mx-auto max-w-lg border border-green-700" />
