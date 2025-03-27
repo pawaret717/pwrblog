@@ -9,7 +9,7 @@ const Header: FC = () => {
           <img
             src="https://cdn.sanity.io/images/2pikbpyu/production/734413cbcf34e7c7f854a73b2e4c15b694f2e4a2-845x846.jpg"
             alt=""
-            className="w-10 cursor-pointer object-contain"
+            className="w-13 cursor-pointer object-contain"
           />
         </Link>
         <div className="hidden items-center space-x-3 md:inline-flex">
