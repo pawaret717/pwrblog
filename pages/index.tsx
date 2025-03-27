@@ -54,7 +54,7 @@ const Home = ({ posts }: Props) => {
                 <div>
                   <p className="text-lg font-bold">{post.title}</p>
                   <p className="text-xs">
-                    {post.description.length > 15 ? `${post.description.slice(0, 15)} ...อ่านเพิ่มเติม...` : post.description}
+                    {post.description.length > 40 ? `${post.description.slice(0, 40)} ...อ่านเพิ่มเติม...` : post.description}
                   </p>
                 </div>
                 <img
