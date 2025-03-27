@@ -14,13 +14,13 @@ const Header: FC = () => {
         </Link>
         <div className="hidden items-center space-x-3 md:inline-flex">
           <h3 className="rounded-full bg-pink-500 px-4 py-1 text-white cursor-pointer">
-            <a href="https://www.instagram.com/pawaret_k/" target="_blank">
+            <a href="https://www.instagram.com/muslimclub.up/" target="_blank">
               Instagram
             </a>
           </h3>
           <h3 className="rounded-full bg-purple-500 px-4 py-1 text-white cursor-pointer">
-            <a href="https://github.com/pawaret717?tab=repositories" target="_blank">
-              GitHub
+            <a href="https://www.tiktok.com/@muslimclub.up" target="_blank">
+              Tiktok
             </a>
           </h3>
         </div>
