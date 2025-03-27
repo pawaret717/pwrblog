@@ -126,7 +126,7 @@ const Post = ({ post }: Props) => {
           <h3 className="text-sm text-green-500">
             คิดเห็นอย่างไรเกี่ยวกับ Blog นี้?
           </h3>
-          <h4 className="text-3xl font-bold">แสดงความคิดเห็นด้านล่างนี้เลย!</h4>
+          <h4 className="text-lg font-bold">แสดงความคิดเห็นด้านล่างนี้เลย!</h4>
 
           <hr className="mt-2 py-3" />
 
@@ -185,7 +185,7 @@ const Post = ({ post }: Props) => {
       )}
 
       <div className="my-10 mx-auto flex max-w-2xl flex-col space-y-2 p-10 shadow shadow-green-500">
-        <h3 className="text-4xl">ความคิดเห็น</h3>
+        <h3 className="text-lg">ความคิดเห็น</h3>
         <hr className="pb-2" />
 
         {post.comments.map((comment: Comment) => (
