@@ -21,7 +21,7 @@ const Home = ({ posts }: Props) => {
 
       <Header />
 
-      <div className="flex items-center justify-between border-y border-yellow-500 bg-green-700 py-10 lg:py-0">
+      <div className="flex items-center justify-between border-y border-yellow-500 bg-green-700 py-5 lg:py-0">
         <div className="space-y-2 px-10">
           <h1 className="max-w-xl font-serif text-1xl text-white">
             <span className="underline decoration-yellow-500 decoration-3 underline-offset-4">
