@@ -70,7 +70,7 @@ const Home = ({ posts }: Props) => {
           ? `${post.description.slice(0, 50)} ...อ่านเพิ่มเติม...`
           : post.description}
       </p>
-      <p className="text-xs text-gray-500">
+      <p className="text-xs text-white bg-blue-500 p-1 rounded mb-1">
         {getTimeAgo(post._createdAt)}
       </p>
     </div>
