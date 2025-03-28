@@ -41,7 +41,7 @@ const Home = ({ posts }: Props) => {
         />
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 p-2 md:p-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 p-1 md:p-3">
   {posts.map((post: Post) => {
     // คำนวณว่าโพสต์นั้นเกิดขึ้นในช่วง 7 วันที่ผ่านมาไหม
     const postDate = new Date(post._createdAt);
