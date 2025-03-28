@@ -64,14 +64,14 @@ const Home = ({ posts }: Props) => {
   />
   <div className="flex justify-between bg-white p-5">
     <div>
+      <p className="text-[8px] text-white bg-blue-500 inline-block px-2 py-1 rounded mt-2">
+        {getTimeAgo(post._createdAt)}
+      </p>
       <p className="text-lg font-bold">{post.title}</p>
       <p className="text-xs">
         {post.description.length > 50
           ? `${post.description.slice(0, 50)} ...อ่านเพิ่มเติม...`
           : post.description}
-      </p>
-      <p className="text-[8px] text-white bg-blue-500 inline-block px-2 py-1 rounded mt-2">
-        {getTimeAgo(post._createdAt)}
       </p>
     </div>
     <img
