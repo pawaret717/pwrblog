@@ -64,7 +64,7 @@ const Home = ({ posts }: Props) => {
   />
   <div className="flex justify-between bg-white p-5">
     <div>
-      <p className="text-[8px] text-white bg-blue-500 inline-block px-2 py-1 rounded mt-2">
+      <p className="text-[8px] text-white bg-blue-500 inline-block px-2 py-1 rounded">
         {getTimeAgo(post._createdAt)}
       </p>
       <p className="text-lg font-bold">{post.title}</p>
