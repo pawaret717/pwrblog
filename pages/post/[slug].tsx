@@ -201,7 +201,7 @@ const Post = ({ post }: Props) => {
       <footer>
   {/* ข้อความ + ไอคอน อยู่แถวเดียวกัน */}
   <div className="bg-gray-300 text-black text-sm py-4 mt-10 flex flex-wrap items-center justify-center gap-3">
-    <span>ติดตามช่องทางของชมรมนิสิตมุสลิมมหาวิทยาลัยพะเยาได้ที่ : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span>ติดตามช่องทางของชมรมนิสิตมุสลิมมหาวิทยาลัยพะเยาได้ที่ : </span>
     
     <a
       href="https://www.facebook.com/muslimclub.UP"
