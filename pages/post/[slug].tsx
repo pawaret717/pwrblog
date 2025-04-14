@@ -198,11 +198,51 @@ const Post = ({ post }: Props) => {
         ))}
       </div>
 
-      <footer className="bg-green-800 text-white text-center text-sm py-4 mt-10">
-        <p>
-          © {new Date().getFullYear()} Muslim Club University of Phayao. All rights reserved.
-        </p>
-      </footer>
+      <footer>
+  {/* ข้อความ + ไอคอน อยู่แถวเดียวกัน */}
+  <div className="bg-gray-300 text-black text-sm py-4 mt-10 flex flex-wrap items-center justify-center gap-3">
+    <span>ติดตามช่องทางของชมรมนิสิตมุสลิมมหาวิทยาลัยพะเยาได้ที่ : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    
+    <a
+      href="https://www.facebook.com/muslimclub.UP"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://cdn.sanity.io/images/2pikbpyu/production/65146bebe45882061b69822367b48ace0a6ea6cd-200x200.png"
+        alt="Facebook"
+        className="w-6 h-6 hover:scale-110 transition-transform duration-200"
+      />
+    </a>
+    <a
+      href="https://www.instagram.com/muslimclub.up"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://cdn.sanity.io/images/2pikbpyu/production/b69244aa64ff6440825c3beb02561dcb0f85c6f9-200x200.png"
+        alt="Instagram"
+        className="w-6 h-6 hover:scale-110 transition-transform duration-200"
+      />
+    </a>
+    <a
+      href="https://www.tiktok.com/@muslimclub.up"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://cdn.sanity.io/images/2pikbpyu/production/581840604060e3f46bf87dee85b241677ffffdb4-200x200.png"
+        alt="TikTok"
+        className="w-6 h-6 hover:scale-110 transition-transform duration-200"
+      />
+    </a>
+  </div>
+
+  {/* ส่วนลิขสิทธิ์ */}
+  <p className="bg-green-800 text-white text-center text-sm py-4">
+    © {new Date().getFullYear()} Muslim Club University of Phayao. All rights reserved.
+  </p>
+</footer>
       
     </main>
   );
