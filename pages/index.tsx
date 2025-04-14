@@ -84,7 +84,14 @@ const Home = ({ posts }: Props) => {
 </Link>
 );
 })}
-</div> 
+</div>
+
+    <footer className="bg-green-800 text-white text-center text-sm py-4 mt-10">
+        <p>
+          © {new Date().getFullYear()} Muslim Club University of Phayao. All rights reserved.
+        </p>
+      </footer>
+      
     </div>
   );  
 };
