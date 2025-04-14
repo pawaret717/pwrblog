@@ -198,8 +198,10 @@ const Post = ({ post }: Props) => {
         ))}
       </div>
 
-      <footer className="mt-10 text-center text-sm text-gray-600 py-6 border-t">
-        © {displayYear} Muslim Club University of Phayao. All rights reserved.
+      <footer className="bg-green-800 text-white text-center text-sm py-4 mt-10">
+        <p>
+          © {new Date().getFullYear()} Muslim Club University of Phayao. All rights reserved.
+        </p>
       </footer>
       
     </main>
