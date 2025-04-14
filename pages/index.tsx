@@ -93,7 +93,7 @@ const Home = ({ posts }: Props) => {
     <span>ติดตามช่องทางของชมรมนิสิตมุสลิมมหาวิทยาลัยพะเยาได้ที่ :</span>
     
     <a
-      href="https://www.facebook.com/your-page"
+      href="https://www.facebook.com/muslimclub.UP"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -104,7 +104,7 @@ const Home = ({ posts }: Props) => {
       />
     </a>
     <a
-      href="https://www.instagram.com/your-page"
+      href="https://www.instagram.com/muslimclub.up"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -115,7 +115,7 @@ const Home = ({ posts }: Props) => {
       />
     </a>
     <a
-      href="https://www.tiktok.com/@your-page"
+      href="https://www.tiktok.com/@muslimclub.up"
       target="_blank"
       rel="noopener noreferrer"
     >
