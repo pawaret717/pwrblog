@@ -88,12 +88,10 @@ const Home = ({ posts }: Props) => {
 </div>
 
     <footer>
-  <p className="bg-gray-300 text-black text-center text-sm py-4 mt-10">
-    ติดตามช่องทางของชมรมนิสิตมุสลิมมหาวิทยาลัยพะเยาได้ที่ :
-  </p>
-
-  {/* ลิงก์ไอคอนโซเชียล */}
-  <div className="bg-gray-300 py-3 flex justify-center gap-6">
+  {/* ข้อความ + ไอคอน อยู่แถวเดียวกัน */}
+  <div className="bg-gray-300 text-black text-sm py-4 mt-10 flex flex-wrap items-center justify-center gap-3">
+    <span>ติดตามช่องทางของชมรมนิสิตมุสลิมมหาวิทยาลัยพะเยาได้ที่ :</span>
+    
     <a
       href="https://www.facebook.com/your-page"
       target="_blank"
@@ -102,7 +100,7 @@ const Home = ({ posts }: Props) => {
       <img
         src="/images/facebook.png"
         alt="Facebook"
-        className="w-8 h-8 hover:scale-110 transition-transform duration-200"
+        className="w-6 h-6 hover:scale-110 transition-transform duration-200"
       />
     </a>
     <a
@@ -113,7 +111,7 @@ const Home = ({ posts }: Props) => {
       <img
         src="/images/instagram.png"
         alt="Instagram"
-        className="w-8 h-8 hover:scale-110 transition-transform duration-200"
+        className="w-6 h-6 hover:scale-110 transition-transform duration-200"
       />
     </a>
     <a
@@ -124,11 +122,12 @@ const Home = ({ posts }: Props) => {
       <img
         src="/images/tiktok.png"
         alt="TikTok"
-        className="w-8 h-8 hover:scale-110 transition-transform duration-200"
+        className="w-6 h-6 hover:scale-110 transition-transform duration-200"
       />
     </a>
   </div>
 
+  {/* ส่วนลิขสิทธิ์ */}
   <p className="bg-green-800 text-white text-center text-sm py-4">
     © {new Date().getFullYear()} Muslim Club University of Phayao. All rights reserved.
   </p>
