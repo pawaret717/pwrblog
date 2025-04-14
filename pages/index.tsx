@@ -98,7 +98,7 @@ const Home = ({ posts }: Props) => {
       rel="noopener noreferrer"
     >
       <img
-        src="/images/facebook.png"
+        src="https://cdn.sanity.io/images/2pikbpyu/production/65146bebe45882061b69822367b48ace0a6ea6cd-200x200.png"
         alt="Facebook"
         className="w-6 h-6 hover:scale-110 transition-transform duration-200"
       />
@@ -109,7 +109,7 @@ const Home = ({ posts }: Props) => {
       rel="noopener noreferrer"
     >
       <img
-        src="/images/instagram.png"
+        src="https://cdn.sanity.io/images/2pikbpyu/production/b69244aa64ff6440825c3beb02561dcb0f85c6f9-200x200.png"
         alt="Instagram"
         className="w-6 h-6 hover:scale-110 transition-transform duration-200"
       />
@@ -120,7 +120,7 @@ const Home = ({ posts }: Props) => {
       rel="noopener noreferrer"
     >
       <img
-        src="/images/tiktok.png"
+        src="https://cdn.sanity.io/images/2pikbpyu/production/581840604060e3f46bf87dee85b241677ffffdb4-200x200.png"
         alt="TikTok"
         className="w-6 h-6 hover:scale-110 transition-transform duration-200"
       />
