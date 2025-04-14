@@ -4,20 +4,10 @@ import Link from "next/link";
 import Header from "../components/Header";
 import { sanityClient, urlFor } from "../sanity";
 import { Post } from "../typings";
-import { useState } from "react"; // เพิ่ม
 
 interface Props {
   posts: Post[];
 
-  const [searchTerm, setSearchTerm] = useState("");
-  const [filteredPosts, setFilteredPosts] = useState(posts); // เพิ่ม
-
-  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const filtered = posts.filter((post) =>
-      post.title.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setFilteredPosts(filtered); // เพิ่ม
 }
 
 const Home = ({ posts }: Props) => {
@@ -51,26 +41,6 @@ const Home = ({ posts }: Props) => {
           alt=""
         />
       </div>
-
-      {/* 🔍 Search Form */}
-      <form
-        onSubmit={handleSearch}
-        className="flex justify-center my-5 gap-2 px-4"
-      >
-        <input
-          type="text"
-          placeholder="ค้นหาชื่อบทความ..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          className="w-full max-w-md border border-gray-300 px-4 py-2 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-green-400"
-        />
-        <button
-          type="submit"
-          className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700"
-        >
-          ค้นหา
-        </button>
-      </form>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 p-1 md:p-3">
   {posts.map((post: Post) => {
