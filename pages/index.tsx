@@ -87,8 +87,11 @@ const Home = ({ posts }: Props) => {
 })}
 </div>
 
-    <footer className="bg-green-800 text-white text-center text-sm py-4 mt-10">
-        <p>
+    <footer>
+        <p className="bg-black-100 text-black text-center text-sm py-4 mt-10">
+          ติดตามช่องทางของชมรมนิสิตมุสลิมมหาวิทยาลัยพะเยาได้ที่ :
+        </p>
+        <p className="bg-green-800 text-white text-center text-sm py-4 mt-10">
           © {new Date().getFullYear()} Muslim Club University of Phayao. All rights reserved.
         </p>
       </footer>
