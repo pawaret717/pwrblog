@@ -88,13 +88,51 @@ const Home = ({ posts }: Props) => {
 </div>
 
     <footer>
-        <p className="bg-gray-300 text-black text-center text-sm py-4 mt-10">
-          ติดตามช่องทางของชมรมนิสิตมุสลิมมหาวิทยาลัยพะเยาได้ที่ :
-        </p>
-        <p className="bg-green-800 text-white text-center text-sm py-4">
-          © {new Date().getFullYear()} Muslim Club University of Phayao. All rights reserved.
-        </p>
-      </footer>
+  <p className="bg-gray-300 text-black text-center text-sm py-4 mt-10">
+    ติดตามช่องทางของชมรมนิสิตมุสลิมมหาวิทยาลัยพะเยาได้ที่ :
+  </p>
+
+  {/* ลิงก์ไอคอนโซเชียล */}
+  <div className="bg-gray-300 py-3 flex justify-center gap-6">
+    <a
+      href="https://www.facebook.com/your-page"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="/images/facebook.png"
+        alt="Facebook"
+        className="w-8 h-8 hover:scale-110 transition-transform duration-200"
+      />
+    </a>
+    <a
+      href="https://www.instagram.com/your-page"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="/images/instagram.png"
+        alt="Instagram"
+        className="w-8 h-8 hover:scale-110 transition-transform duration-200"
+      />
+    </a>
+    <a
+      href="https://www.tiktok.com/@your-page"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="/images/tiktok.png"
+        alt="TikTok"
+        className="w-8 h-8 hover:scale-110 transition-transform duration-200"
+      />
+    </a>
+  </div>
+
+  <p className="bg-green-800 text-white text-center text-sm py-4">
+    © {new Date().getFullYear()} Muslim Club University of Phayao. All rights reserved.
+  </p>
+</footer>
       
     </div>
   );  
