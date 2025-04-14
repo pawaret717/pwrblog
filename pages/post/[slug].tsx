@@ -198,6 +198,10 @@ const Post = ({ post }: Props) => {
         ))}
       </div>
 
+      <footer className="mt-10 text-center text-sm text-gray-600 py-6 border-t">
+        © {displayYear} Muslim Club University of Phayao. All rights reserved.
+      </footer>
+      
     </main>
   );
 };
