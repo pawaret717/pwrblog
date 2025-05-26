@@ -113,6 +113,7 @@ const Post = ({ post }: Props) => {
 
       <hr className="my-5 mx-auto max-w-lg border border-green-700" />
 
+      {/*
       {submitted ? (
         <div className="my-10 mx-auto flex max-w-2xl flex-col bg-green-500 p-10 text-white">
           <h3 className="text-3xl font-bold">ขอบคุณสำหรับความคิดเห็นของคุณ!</h3>
@@ -197,6 +198,7 @@ const Post = ({ post }: Props) => {
           </div>
         ))}
       </div>
+      */}
 
       <footer>
   {/* ข้อความ + ไอคอน อยู่แถวเดียวกัน */}
